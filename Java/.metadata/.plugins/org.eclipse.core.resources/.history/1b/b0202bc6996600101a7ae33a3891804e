@@ -1,0 +1,7 @@
+package Practices;
+
+public class Output_variables {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,25 @@
+package javaEx;
+
+public class Variable {
+	public static void main(String[] args) {
+		//Numbers positives and negatives 
+		int myNum = 10;
+		//Numbers Broken, Decimals
+		float decimal = 10.00f;
+		//true or false
+		boolean isTrue = true;
+		//letter only
+		char letter = 'a';
+		//constant 
+		final int age = 21;
+		//words
+		String name = "Bony ";
+		String lastName = "Meal";
+		System.out.println("Hello World! It's working?");
+		System.out.println(name + myNum + decimal + letter);
+		System.out.println("It's shit is true? " + isTrue);
+		myNum = 9;
+		System.out.println(mynum);
+		
+	}
+}

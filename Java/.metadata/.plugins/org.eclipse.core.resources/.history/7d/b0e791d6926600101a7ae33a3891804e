@@ -1,0 +1,24 @@
+package javaEx;
+
+public class Variable {
+	public static void main(String[] args) {
+		//Numbers positives and negatives 
+		int mynum = 10;
+		//Numbers Broken, Decimals
+		float decimal = 10.00f;
+		//true or false
+		boolean istrue = true;
+		//letter only
+		char letter = 'a';
+		//constant 
+		final int age = 21;
+		//words
+		String name = "Bony";
+		System.out.println("Hello World! It's working?");
+		System.out.println(name + mynum + decimal + letter);
+		System.out.println("It's shit is true? " + istrue);
+		mynum = 9;
+		System.out.println(mynum);
+		
+	}
+}

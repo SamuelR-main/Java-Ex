@@ -1,0 +1,32 @@
+package javaEx;
+
+public class Variable {
+	public static void main(String[] args) {
+		//Numbers positives and negatives 
+		int myNum = 10;
+		//Numbers Broken, Decimals
+		float decimal = 10.00f;
+		//true or false
+		boolean isTrue = true;
+		//letter only
+		char letter = 'a';
+		//constant 
+		final int age = 21;
+		//words
+		String name = "Bony ";
+		String lastName = "Meal";
+		String fullName = name + lastName;
+		System.out.println("Hello World! It's working?");
+		System.out.println(fullName + myNum + decimal + letter);
+		System.out.println("It's is true? " + isTrue);
+		myNum = 9;
+		System.out.println(myNum);
+		//declare many variables unique line
+		int x = 10, y = 5, z = 20;
+		System.out.println(x + y + z);
+		//one value for many variables
+		int x2, y2, z2;
+		x2 = y2 = z2 = 30;
+		System.out.println(x2 + y2 + z2);
+	}
+}

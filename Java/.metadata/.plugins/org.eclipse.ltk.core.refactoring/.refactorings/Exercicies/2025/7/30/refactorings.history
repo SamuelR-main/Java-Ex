@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Practices.output_variables&apos; to &apos;Output_variables&apos;&#x0D;&#x0A;- Original project: &apos;Exercicies&apos;&#x0D;&#x0A;- Original element: &apos;Practices.output_variables&apos;&#x0D;&#x0A;- Renamed element: &apos;Practices.Output_variables&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;output_variables&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Practices{output_variables.java[output_variables" matchStrategy="1" name="Output_variables" qualified="false" references="true" similarDeclarations="false" stamp="1753146819597" textual="false" version="1.0"/>
+</session>
