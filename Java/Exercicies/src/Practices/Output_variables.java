@@ -97,7 +97,7 @@ public class Output_variables {
 		System.out.println(q20Phase2);
 		
 		//#21 Print a multiplication table of 1 number
-		int q21Number = 1;
+		int q21Number = 3;
 		System.out.println("Multiplication Table: " + q21Number);
 		System.out.println("1 X " + q21Number + " = " + (q21Number*1));
 		System.out.println("2 X " + q21Number + " = " + (q21Number*2));
@@ -111,6 +111,8 @@ public class Output_variables {
 		System.out.println("10 X " + q21Number + " = " + (q21Number*10));
 		
 		//#22 Create a Phase with quotation marks inside
+		String q22Phase = "This phase with 'quotation'";
+		System.out.println(q22Phase);
 		
 		//#23 Use \n, \t and \\ in a out
 		
@@ -119,14 +121,22 @@ public class Output_variables {
 		//#25 Convert string for int with integer.parseint
 		
 		//#26 Calc age from birthday
+		int q26Birthday = 2004, q26Year = 2025;
+		System.out.println("You are " + (q26Year - q26Birthday) + " years");
 		
 		//#27 Declare height and weight and print
+		double q27Height = 1.71, q27Weight = 50.5;
+		System.out.println("Height: " + q27Height + "m Weight: " + q27Weight + "kg");
 		
 		//#28 Use name, age and height for print a resume
 		
 		//#29 Use final for a constant PI and print
+		final double q29PI = 3.14;
+		System.out.println(q29PI);
 		
 		//#30 Calc and print area of square 
+		int q30Num1 = 10, q30Num2 = 20, q30Area = q30Num1 * q30Num2;
+		System.out.println("Area Square: " + q30Area);
 		
 		//#31 Create a variable long and print
 		
@@ -135,17 +145,28 @@ public class Output_variables {
 		//#33 Print two variables in line with comma
 		
 		//#34 Make an account  with priority using parentheses 
+		int q34Num1 = (5 / 5) + 10 - (10-5);
+		System.out.println(q34Num1);
 		
 		//#35 Calc a double numbers
+		double q35Num1 = 10.5 + 11.5;
+		System.out.println(q35Num1);
 		
 		//#36 Calc square of number 
+		double q36SquareNumber = 10.0;
+		System.out.println("Square Number " + q36SquareNumber + " = " + (q36SquareNumber * q36SquareNumber));
 		
 		//#37 Convert a number int for decimal
 		
 		//#38 Show difference between int and double in the division
 		
 		//#39 Store a negative number and print
+		int q39Num1 = -1;
+		System.out.println("Negative Number: " + q39Num1);
 		
-		//#40 Make a account with 4 operator and print 
+		//#40 Make a account with 4 operator and print
+		int q40Num1 = 10 + 10 - 10 / 10 * 10;
+		System.out.println(q40Num1);
+		
 	}
 }
