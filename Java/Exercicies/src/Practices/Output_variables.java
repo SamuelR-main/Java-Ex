@@ -168,5 +168,77 @@ public class Output_variables {
 		int q40Num1 = 10 + 10 - 10 / 10 * 10;
 		System.out.println(q40Num1);
 		
+		//#41 Make a calc simple (sum, sub)
+		int q41Number1, q41Number2, q41Sum, q41Sub;
+		q41Number1 = 10;
+		q41Number2 = 15;
+		q41Sum = q41Number1 + q41Number2;
+		q41Sub = q41Number1 - q41Number2;
+		System.out.println("Number: " + q41Number1 + " Number 2: " + q41Number2 + " Sum: " + q41Sum + " Sub: " + q41Sub);
+		
+		//#42 Make a calc IMC with (weight / (height²)
+		double q42Weight, q42Height, q42IMC;
+		q42Weight = 50.00;
+		q42Height = 1.71;
+		q42IMC = q42Weight / (q42Height * q42Height);
+		System.out.println("Your weight is: " + q42Weight + ", and your height is: " + q42Height + ", IMC: " + q42IMC);
+		
+		//#43 Calc the triangle area
+		int q43Base, q43Height, q43TriangleArea;
+		q43Base = 10;
+		q43Height = 15;
+		q43TriangleArea = (q43Base * q43Height) / 2;
+		System.out.println("Triangle Area: " + q43TriangleArea);
+		
+		//#44 Calc monthly salary with hours and value per hour
+		int q44Salary, q44Hours, q44Weekly, q44Value;
+		q44Salary = 1518;
+		q44Hours = 8;
+		q44Weekly = 40;
+		q44Value = (q44Salary / (((q44Weekly / q44Hours) * 4) * q44Hours)); 
+		System.out.println(q44Value);
+		
+		//#45 Calc time travel with velocity and distance
+		double q45TimeTravel, q45Distance, q45Velocity;
+		q45Distance = 90.0;
+		q45Velocity = 90.0;
+		q45TimeTravel = q45Distance / q45Velocity;
+		System.out.println(q45TimeTravel);
+		
+		//#46 Make a "Business Card" with several variables
+		String q46Line = "====================";
+		String q46Name = "  Samuel R. Araujo  ";
+		String q46Contact = "  (82) 99990-9719  ";
+		String q46Endress = "R. Santos Ferraz, 567";
+		System.out.println(q46Line);
+		System.out.println(q46Name);
+		System.out.println(q46Contact);
+		System.out.println(q46Endress);
+		System.out.println(q46Line);
+		
+		//#47 Make a variable to CPF, Phone, Name and Age
+		int q47Phone, q47Age, q47CPF;
+		String q47Name;
+		q47Phone = 999909719;
+		q47Age = 21;
+		q47CPF = 12483583;
+		q47Name = "Samuel Rodrigo Araujo de Carvalho";
+		System.out.println("Phone: " + q47Phone + " Age: " + q47Age + " CPF: " + q47CPF + " Name: " + q47Name);
+		
+		//#48 Make a temp conversion Celsius to Fahrenheit
+		int q48Celsius, q48Fahrenheit;
+		q48Celsius = 10;
+		q48Fahrenheit = (q48Celsius * 9/5) + 32;
+		System.out.println("Celsius: " + q48Celsius + " Fahrenheit: " + q48Fahrenheit);
+		
+		//#49 Calc percentage: 30% of 200
+		double q49Percentage, q49Number, q49Result;
+		q49Percentage = 87;
+		q49Number = 256;
+		q49Result = q49Number * q49Percentage/100;
+		System.out.println(q49Result);
+		
+		//#50 Verify if a variable is par or impar (using /)
+		
 	}
 }
