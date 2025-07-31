@@ -86,6 +86,8 @@ public class Output_variables {
 		System.out.println(q17Phase1 + q17Num1);
 		
 		//#18 Create a variable float and print
+		float q18Num1 = 17.18f;
+		System.out.println("Float value: " + q18Num1);
 		
 		//#19 Declare two variables boolean and print both
 		boolean q19IsTrue = true, q19IsFalse = false;
@@ -129,6 +131,10 @@ public class Output_variables {
 		System.out.println("Height: " + q27Height + "m Weight: " + q27Weight + "kg");
 		
 		//#28 Use name, age and height for print a resume
+		String q28Name = "Bony";
+		byte q28Age = 21;
+		double q28Height = 1.71;
+		System.out.println("Name: " + q28Name + " Age: " + q28Age + " Height: " + q28Height);
 		
 		//#29 Use final for a constant PI and print
 		final double q29PI = 3.14;
@@ -139,8 +145,15 @@ public class Output_variables {
 		System.out.println("Area Square: " + q30Area);
 		
 		//#31 Create a variable long and print
+		long q31Num1 = 1223232323232112L;
+		System.out.println("Long: " + q31Num1);
 		
 		//#32 Use byte, short, int, long and print all
+		byte q32Num1 = 23;
+		short q32Num2 = 230;
+		int q32Num3 = 1020023;
+		long q32Num4 = 1010010101230230010l;
+		System.out.println("Byte: " + q32Num1 + "Short: " + q32Num2 + "Int: " + q32Num3 + "Long: " + q32Num4);
 		
 		//#33 Print two variables in line with comma
 		
@@ -157,8 +170,15 @@ public class Output_variables {
 		System.out.println("Square Number " + q36SquareNumber + " = " + (q36SquareNumber * q36SquareNumber));
 		
 		//#37 Convert a number int for decimal
+		int q37Num1 = 12;
+		double q37Num2 = q37Num1;
+		System.out.println("Int for Decimal: " + q37Num2);
 		
 		//#38 Show difference between int and double in the division
+		int q38Num1 = 10;
+		double q38Num2 = 20.50;
+		System.out.println("=============== Question 38 ===============");
+		System.out.println("Int difference: " + (q38Num1 / 2) + " Double difference: " + (q38Num2 / 2) + " Both: " + (q38Num2 / q38Num1));
 		
 		//#39 Store a negative number and print
 		int q39Num1 = -1;
@@ -239,6 +259,39 @@ public class Output_variables {
 		System.out.println(q49Result);
 		
 		//#50 Verify if a variable is par or impar (using /)
-		
+		//#51 Invert both values two variables without a assistant variable
+		//#52 Invert using a assistant variable
+		//#53 Store a big number with BigInteger (Advanced)
+		//#54 Declare a variable in Scientific Notation with double
+		//#55 Store time in seconds and convert to hours, minutes and seconds
+		//#56 Calc a difference age between two people
+		//#57 Calc a media speed with form
+		//#58 Make a program print 3 values reads of keyword
+		//#59 sum three double and print with 2 decimals places
+		//#60 print a concatenation numbers with text using + and printf
+		//#61 Use printf to print a number format
+		//#62 Make a receipt with System.out.printf aligned
+		//#63 Store a special character with char and print
+		//#64 Print a character with value ASCII
+		//#65 Calc total value of a purchase at a discount
+		//#66 Simulate final value with simply fees
+		//#67 Simulate final value with compounds fees
+		//#68 Calc the perimeter of a circle (2 * PI * r)
+		//#69 Convert a decimal number for binary (with Integer.toBinaryString)
+		//#70 Declare various variables with a line
+		//#71 Make accounts with casting: (int) (double)
+		//#72 Demonstrate what happens with division per zero with int vs double
+		//#73 Use operators ++ and -- with variables
+		//#74 Make variables with names meanings and well written
+		//#75 Simulate a store cashier: Product, qtd, price, total
+		//#76 Make a bulletin with notes and medias
+		//#77 Calc a change of a buy
+		//#78 Receive entry value (scanner) and show
+		//#70 Calc percentage increase salary
+		//#80 Calc difference between two schedules with minutes
+		//#81 Use Scanner to read name, age and city
+		//#82 Make a "register token" with various entry and prints
+		//#83 Use Math.pow to exponentiation
+		//#84 Use Math.sqrt to 
 	}
 }
