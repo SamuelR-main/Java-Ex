@@ -35,6 +35,7 @@ public class Variable {
 		System.out.println("Hello World! It's working?");
 		System.out.println(fullName + myNum + decimal + letter);
 		System.out.println("It's is true? " + isTrue);
+		int myNum;
 		myNum = 9;
 		System.out.println(myNum);
 		//declare many variables unique line
