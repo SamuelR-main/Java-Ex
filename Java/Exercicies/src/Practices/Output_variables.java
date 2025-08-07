@@ -552,11 +552,42 @@ public class Output_variables {
 		//NaN
 		
 		//#73 Use operators ++ and -- with variables
-				
+		int q73Number = 10, q73Number2 = 15;
+		++q73Number;
+		--q73Number2;
+		System.out.println("Number 1: " + q73Number + " Number 2: " + q73Number);
+		
 		//#74 Make variables with names meanings and well written
-				//#75 Simulate a store cashier: Product, qtd, price, total
-				//#76 Make a bulletin with notes and medias
-				//#77 Calc a change of a buy
+		String q74FirstName = "Samuel";
+		String q74LastName = "Araujo";
+		String q74FullName = q74FirstName + q74LastName;
+		System.out.println(q74FullName);
+		
+		//#75 Simulate a store cashier: Product, qtd, price, total
+		String q75Product;
+		short q75QTD;
+		double q75Price;
+		q75Product = "Chocolate Bar";
+		q75QTD = 120;
+		q75Price = 10.00;
+		double q75Total = q75Price * q75QTD;
+		System.out.println("----------------------------------------------------");
+		System.out.println(q75Product + " x" + q75QTD + " $" + q75Price + " = $" + q75Total);
+		
+		//#76 Make a bulletin with notes and medias
+		String q76Supplies, q76Supplies2, q76Supplies3 = "History", q76Supplies4 = "Geography", q76Supplies5 = "Biology", q76Supplies6 = "English", q76Supplies7 = "Physics", q76Supplies8 = "Quimic", q76Supplies9 = "Arts", q76Supplies10 = "Sociology", q76Supplies11 = "Philosophy";
+		double q76SuppliesNote, q76SuppliesNote2, q76SuppliesNote3, q76SuppliesNote4, q76Supplies2Note, q76Supplies2Note2, q76Supplies2Note3, q76Supplies2Note4, q76Supplies3Note, q76Supplies3Note2, q76Supplies3Note3, q76Supplies3Note4;
+		q76Supplies = "Portuguese";
+		q76SuppliesNote = 7.5; q76SuppliesNote2 = 9.0; q76SuppliesNote3 = 8.5; q76SuppliesNote4 = 9.5;
+		q76Supplies2 = "Math";
+		q76Supplies2Note = 9.5; q76Supplies2Note2 = 10.0; q76Supplies2Note3 = 9.0; q76Supplies2Note4 = 10.0;
+		q76Supplies3 = "History";
+		q76Supplies3Note = 7.5; q76Supplies3Note2 = 9.0; q76Supplies3Note3 = 9.0; q76Supplies3Note4 = 10.0;
+		System.out.println("------------------------------------------------");
+		System.out.println("    Supplies    |  1  |  2  |  3  |  4  | Total Media ");
+		System.out.println("   " + q76Supplies + "     " + q76SuppliesNote + "   " + q76SuppliesNote2 + "   " + q76SuppliesNote3 + "   " + q76SuppliesNote4 + "    = " + ((q76SuppliesNote + q76SuppliesNote2 + q76SuppliesNote3 + q76SuppliesNote4) / 4));
+		System.out.println("      " + q76Supplies2 + "        " + q76Supplies2Note + "   " + q76Supplies2Note2 + "   " + q76Supplies2Note3 + "   " + q76Supplies2Note4 + "    = " + ((q76Supplies2Note + q76Supplies2Note2 + q76Supplies2Note3 + q76Supplies2Note4) / 4));
+		//#77 Calc a change of a buy
 				//#78 Receive entry value (scanner) and show
 				//#70 Calc percentage increase salary
 				//#80 Calc difference between two schedules with minutes
