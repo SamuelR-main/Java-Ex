@@ -420,41 +420,6 @@ public class Output_variables {
 		//#50 Verify if a variable is par or impar (using /)
 
 		//#51 Invert both values two variables without a assistant variable
-		//#52 Invert using a assistant variable
-		//#53 Store a big number with BigInteger (Advanced)
-		//#54 Declare a variable in Scientific Notation with double
-		//#55 Store time in seconds and convert to hours, minutes and seconds
-		//#56 Calc a difference age between two people
-		//#57 Calc a media speed with form
-		//#58 Make a program print 3 values reads of keyword
-		//#59 sum three double and print with 2 decimals places
-		//#60 print a concatenation numbers with text using + and printf
-		//#61 Use printf to print a number format
-		//#62 Make a receipt with System.out.printf aligned
-		//#63 Store a special character with char and print
-		//#64 Print a character with value ASCII
-		//#65 Calc total value of a purchase at a discount
-		//#66 Simulate final value with simply fees
-		//#67 Simulate final value with compounds fees
-		//#68 Calc the perimeter of a circle (2 * PI * r)
-		//#69 Convert a decimal number for binary (with Integer.toBinaryString)
-		//#70 Declare various variables with a line
-		//#71 Make accounts with casting: (int) (double)
-		//#72 Demonstrate what happens with division per zero with int vs double
-		//#73 Use operators ++ and -- with variables
-		//#74 Make variables with names meanings and well written
-		//#75 Simulate a store cashier: Product, qtd, price, total
-		//#76 Make a bulletin with notes and medias
-		//#77 Calc a change of a buy
-		//#78 Receive entry value (scanner) and show
-		//#70 Calc percentage increase salary
-		//#80 Calc difference between two schedules with minutes
-		//#81 Use Scanner to read name, age and city
-		//#82 Make a "register token" with various entry and prints
-		//#83 Use Math.pow to exponentiation
-		//#84 Use Math.sqrt to 
-		
-		//#51 Invert both values two variables without a assistant variable
 		int q51Number = 10;
 		int q51Number2 = 20;
 		System.out.println((q51Number = q51Number2) + "and " + (q51Number2 = q51Number));
@@ -575,26 +540,69 @@ public class Output_variables {
 		System.out.println(q75Product + " x" + q75QTD + " $" + q75Price + " = $" + q75Total);
 		
 		//#76 Make a bulletin with notes and medias
-		String q76Supplies, q76Supplies2, q76Supplies3 = "History", q76Supplies4 = "Geography", q76Supplies5 = "Biology", q76Supplies6 = "English", q76Supplies7 = "Physics", q76Supplies8 = "Quimic", q76Supplies9 = "Arts", q76Supplies10 = "Sociology", q76Supplies11 = "Philosophy";
+		String q76Supplies, q76Supplies2, q76Supplies3, q76Supplies4, q76Supplies5, q76Supplies6, q76Supplies7, q76Supplies8, q76Supplies9, q76Supplies10, q76Supplies11;
 		double q76SuppliesNote, q76SuppliesNote2, q76SuppliesNote3, q76SuppliesNote4, q76Supplies2Note, q76Supplies2Note2, q76Supplies2Note3, q76Supplies2Note4, q76Supplies3Note, q76Supplies3Note2, q76Supplies3Note3, q76Supplies3Note4;
+		double q76Supplies4Note, q76Supplies4Note2, q76Supplies4Note3, q76Supplies4Note4, q76Supplies5Note, q76Supplies5Note2, q76Supplies5Note3, q76Supplies5Note4, q76Supplies6Note, q76Supplies6Note2, q76Supplies6Note3, q76Supplies6Note4;
+		double q76Supplies7Note, q76Supplies7Note2, q76Supplies7Note3, q76Supplies7Note4, q76Supplies8Note, q76Supplies8Note2, q76Supplies8Note3, q76Supplies8Note4, q76Supplies9Note, q76Supplies9Note2, q76Supplies9Note3, q76Supplies9Note4;
+		double q76Supplies10Note, q76Supplies10Note2, q76Supplies10Note3, q76Supplies10Note4, q76Supplies11Note, q76Supplies11Note2, q76Supplies11Note3, q76Supplies11Note4;
 		q76Supplies = "Portuguese";
 		q76SuppliesNote = 7.5; q76SuppliesNote2 = 9.0; q76SuppliesNote3 = 8.5; q76SuppliesNote4 = 9.5;
 		q76Supplies2 = "Math";
 		q76Supplies2Note = 9.5; q76Supplies2Note2 = 10.0; q76Supplies2Note3 = 9.0; q76Supplies2Note4 = 10.0;
 		q76Supplies3 = "History";
 		q76Supplies3Note = 7.5; q76Supplies3Note2 = 9.0; q76Supplies3Note3 = 9.0; q76Supplies3Note4 = 10.0;
+		q76Supplies4 = "Geography";
+		q76Supplies4Note = 10.0; q76Supplies4Note2 = 8.5; q76Supplies4Note3 = 9.5; q76Supplies4Note4 = 9.0;
+		q76Supplies5 = "Biology";
+		q76Supplies5Note = 6.5; q76Supplies5Note2 = 8.5; q76Supplies5Note3 = 9.0; q76Supplies5Note4 = 7.5;
+		q76Supplies6 = "English";
+		q76Supplies6Note = 9.5; q76Supplies6Note2 = 7.5; q76Supplies6Note3 = 6.5; q76Supplies6Note4 = 8.5;
+		q76Supplies7 = "Physics";
+		q76Supplies7Note = 8.5; q76Supplies7Note2 = 10.0; q76Supplies7Note3 = 9.0; q76Supplies7Note4 = 10.0;
+		q76Supplies8 = "Quimic";
+		q76Supplies8Note = 10.0; q76Supplies8Note2 = 10.0; q76Supplies8Note3 = 10.0; q76Supplies8Note4 = 10.0;
+		q76Supplies9 = "Arts";
+		q76Supplies9Note = 9.0; q76Supplies9Note2 = 10.0; q76Supplies9Note3 = 10.0; q76Supplies9Note4 = 10.0;
+		q76Supplies10 = "Sociology";
+		q76Supplies10Note = 6.5; q76Supplies10Note2 = 10.0; q76Supplies10Note3 = 9.5; q76Supplies10Note4 = 10.0;
+		q76Supplies11 = "Philosophy";
+		q76Supplies11Note = 9.5; q76Supplies11Note2 = 10.0; q76Supplies11Note3 = 9.0; q76Supplies11Note4 = 10.0;
 		System.out.println("------------------------------------------------");
 		System.out.println("    Supplies    |  1  |  2  |  3  |  4  | Total Media ");
 		System.out.println("   " + q76Supplies + "     " + q76SuppliesNote + "   " + q76SuppliesNote2 + "   " + q76SuppliesNote3 + "   " + q76SuppliesNote4 + "    = " + ((q76SuppliesNote + q76SuppliesNote2 + q76SuppliesNote3 + q76SuppliesNote4) / 4));
 		System.out.println("      " + q76Supplies2 + "        " + q76Supplies2Note + "   " + q76Supplies2Note2 + "   " + q76Supplies2Note3 + "   " + q76Supplies2Note4 + "    = " + ((q76Supplies2Note + q76Supplies2Note2 + q76Supplies2Note3 + q76Supplies2Note4) / 4));
+		System.out.println("      " + q76Supplies3 + "        " + q76Supplies3Note + "   " + q76Supplies3Note2 + "   " + q76Supplies3Note3 + "   " + q76Supplies3Note4 + "    = " + ((q76Supplies3Note + q76Supplies3Note2 + q76Supplies3Note3 + q76Supplies3Note4) / 4));
+		System.out.println("      " + q76Supplies4 + "        " + q76Supplies4Note + "   " + q76Supplies4Note2 + "   " + q76Supplies4Note3 + "   " + q76Supplies4Note4 + "    = " + ((q76Supplies4Note + q76Supplies4Note2 + q76Supplies4Note3 + q76Supplies4Note4) / 4));
+		System.out.println("      " + q76Supplies5 + "        " + q76Supplies5Note + "   " + q76Supplies5Note2 + "   " + q76Supplies5Note3 + "   " + q76Supplies5Note4 + "    = " + ((q76Supplies5Note + q76Supplies5Note2 + q76Supplies5Note3 + q76Supplies5Note4) / 4));
+		System.out.println("      " + q76Supplies6 + "        " + q76Supplies6Note + "   " + q76Supplies6Note2 + "   " + q76Supplies6Note3 + "   " + q76Supplies6Note4 + "    = " + ((q76Supplies6Note + q76Supplies6Note2 + q76Supplies6Note3 + q76Supplies6Note4) / 4));
+		System.out.println("      " + q76Supplies7 + "        " + q76Supplies7Note + "   " + q76Supplies7Note2 + "   " + q76Supplies7Note3 + "   " + q76Supplies7Note4 + "    = " + ((q76Supplies7Note + q76Supplies7Note2 + q76Supplies7Note3 + q76Supplies7Note4) / 4));
+		System.out.println("      " + q76Supplies8 + "        " + q76Supplies8Note + "   " + q76Supplies8Note2 + "   " + q76Supplies8Note3 + "   " + q76Supplies8Note4 + "    = " + ((q76Supplies8Note + q76Supplies8Note2 + q76Supplies8Note3 + q76Supplies8Note4) / 4));
+		System.out.println("      " + q76Supplies9 + "        " + q76Supplies9Note + "   " + q76Supplies9Note2 + "   " + q76Supplies9Note3 + "   " + q76Supplies9Note4 + "    = " + ((q76Supplies9Note + q76Supplies9Note2 + q76Supplies9Note3 + q76Supplies9Note4) / 4));
+		System.out.println("      " + q76Supplies10 + "        " + q76Supplies10Note + "   " + q76Supplies10Note2 + "   " + q76Supplies10Note3 + "   " + q76Supplies10Note4 + "     = " + ((q76Supplies10Note + q76Supplies10Note2 + q76Supplies10Note3 + q76Supplies10Note4) / 4));
+		System.out.println("      " + q76Supplies11 + "        " + q76Supplies11Note + "   " + q76Supplies11Note2 + "   " + q76Supplies11Note3 + "   " + q76Supplies11Note4 + "     = " + ((q76Supplies11Note + q76Supplies11Note2 + q76Supplies11Note3 + q76Supplies11Note4) / 4));
+		
 		//#77 Calc a change of a buy
-				//#78 Receive entry value (scanner) and show
-				//#70 Calc percentage increase salary
-				//#80 Calc difference between two schedules with minutes
-				//#81 Use Scanner to read name, age and city
-				//#82 Make a "register token" with various entry and prints
-				//#83 Use Math.pow to exponentiation
-				//#84 Use Math.sqrt to
+		double q77Buy, q77Dolar;
+		q77Buy = 100.00;
+		q77Dolar = 120.00;
+		System.out.println("Value Buy: " + q77Buy + " Dolar: " + q77Dolar + " change: $" + (q77Dolar - q77Buy));
+		
+		//#78 Receive entry value (scanner) and show
+		
+		//#79 Calc percentage increase salary
+		double q79SalaryPrevious = 100.00;
+		double q79SalaryCurrent = 150.00;
+		double q79SalaryPorcentage = (q79SalaryCurrent - q79SalaryPrevious) / (q79SalaryPrevious * 1/100);
+		System.out.println("Salary Previous: $" + q79SalaryPrevious + " Salary Current: $" + q79SalaryCurrent + " Add Porcetage: " + q79SalaryPorcentage + "%");
+		
+		//#80 Calc difference between two schedules with minutes
+		
+		//#81 Use Scanner to read name, age and city
+		
+		//#82 Make a "register token" with various entry and prints
+		
+		//#83 Use Math.pow to exponentiation
+		//#84 Use Math.sqrt to
 		
 	}
 }
