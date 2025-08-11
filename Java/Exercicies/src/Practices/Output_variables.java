@@ -596,6 +596,10 @@ public class Output_variables {
 		System.out.println("Salary Previous: $" + q79SalaryPrevious + " Salary Current: $" + q79SalaryCurrent + " Add Porcetage: " + q79SalaryPorcentage + "%");
 		
 		//#80 Calc difference between two schedules with minutes
+		int q80Minutes1 = 400;
+		int q80Minutes2 = 700;
+		int q80MinutesDifference = q80Minutes1 - q80Minutes2;
+		System.out.println("Horas inicial : " + (q80Minutes1 / 60) + "H:" + (q80Minutes1 % 60) + "M | " + (q80Minutes2 / 60) + "H:" + (q80Minutes2 % 60) + "M  = " + (q80MinutesDifference / 60) + "H:" + (q80MinutesDifference % 60) + "M");
 		
 		//#81 Use Scanner to read name, age and city
 		
