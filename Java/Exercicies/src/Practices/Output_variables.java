@@ -604,9 +604,23 @@ public class Output_variables {
 		//#81 Use Scanner to read name, age and city
 		
 		//#82 Make a "register token" with various entry and prints
-		
 		//#83 Use Math.pow to exponentiation
 		//#84 Use Math.sqrt to
-		
+		//#85 Use Math.abs to absolute value.
+		//#86 Calc value of equation 2 (only variables)
+		//#87 Use Math.Random to generate number between 0 and 100
+		//#88 Use DecimalFormat to format double
+		//#89 Calc value a installment financing.
+		//#90 Calc time remaining for birthday
+		//#91 Simulate Calc freight per weight and distance
+		//#92 Calc total time of videos sum minutes and  seconds
+		//#93 Convert Values with double.valueOf
+		//#94 Use String.format to create phases with variables
+		//#95 Use var (Java 10+) to declare automatic type
+		//#96 Calc a difference between dates with Localdate
+		//#97 Create a mensange of Welcome styled with variables
+		//#98 Calc media weighted with different weights
+		//#99 Generate a random number and print with custom mensange
+		//#100 Create a program print your name in art form with variables
 	}
 }
